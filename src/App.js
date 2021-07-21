@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Home, About, Works, Contact, NavBar, Footer } from './components';
-import './styles/App.scss';
+import './styles/app.scss';
 
 function App() {
   return (
