@@ -31,7 +31,7 @@
 
   .list-icon {
     font-size: 40px;
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     z-index: 4;
@@ -52,11 +52,11 @@
     left: 0;
     z-index: 3;
     width: 100%;
-    height: 86vh;
+    height: 100vh;
     left: -100vw;
     padding-top: 140px;
     text-align: center;
-    position: absolute;
+    position: fixed;
     transition: all 0.3s ease-in-out;
     background-color: rgba(0, 0, 0, 0.8);
 

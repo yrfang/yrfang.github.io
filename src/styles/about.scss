@@ -1,0 +1,38 @@
+@import "./shared.scss";
+
+.about {
+  flex-grow: 1;
+  font-size: 18px;
+
+  .container {
+    margin-bottom: 30px;
+    border-bottom: solid 1px #cccccc;
+    padding-bottom: 45px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &.experience p, &.education p {
+      margin: 7px 0;
+    }
+
+    &.education a {
+      color: #000000;
+      &:hover {
+        color: $primary-color;
+        transition: 0.3s;
+      }
+    }
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .about {
+    font-size: 20px;
+  }
+}
