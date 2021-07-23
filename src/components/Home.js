@@ -7,23 +7,22 @@ const Home = () => {
     <div className="home">
       <div className="title">
         <h1>
-          <p>Hello, I am</p>
-          <p className="name">Yingru Fang</p>
-          <div className="person">
-            <img
-              className="photo"
-              src={`${process.env.PUBLIC_URL}/yr-logo.png`}
-              alt="person"
-            />
-          </div>
+          <p>Hi,</p>
+          <p>I am Yingru Fang</p>
           <p>Software developer</p>
         </h1>
         <Link to="about">
           <button>More Info</button>
         </Link>
       </div>
+      <div className="person">
+        <img
+          src={`${process.env.PUBLIC_URL}/yr-logo.png`}
+          alt="person"
+        />
+      </div>
     </div>
-  )
+  );
 };
 
 export default Home;
