@@ -78,11 +78,11 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/works"
+                to="/project"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/works" && "#f5aa42" }}
+                style={{ color: location.pathname === "/project" && "#f5aa42" }}
               >
-                Work
+                Project
               </Link>
             </li>
             <li>

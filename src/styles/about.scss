@@ -2,12 +2,16 @@
 
 .about {
   flex-grow: 1;
-  font-size: 18px;
 
   .container {
     margin-bottom: 30px;
     border-bottom: solid 1px #cccccc;
     padding-bottom: 45px;
+
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
 
     &:last-child {
       border-bottom: none;
@@ -28,11 +32,5 @@
 
   h1 {
     margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 800px) {
-  .about {
-    font-size: 20px;
   }
 }
