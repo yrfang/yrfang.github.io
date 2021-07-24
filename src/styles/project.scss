@@ -1,7 +1,8 @@
+@import "./shared.scss";
+
 .project {
   flex-grow: 1;
   min-width: 100%;
-  // display: flex;
 
   h1 {
     margin-bottom: 20px;
@@ -10,27 +11,47 @@
   .container {
     margin: 0;
     padding: 0;
-    flex-grow: 1;
-    min-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+
     .project-card {
-      border: solid 1px red;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      width: 100%;
+
+      .coverphoto {
+        width: 100%;
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 300px;
+        border: solid 1px #cccccc;
+      }
+
+      h3 {
+        margin: 8px 0;
+      }
+
+      a {
+        color: #000000;
+        &:hover {
+          color: $primary-color;
+          transition: 0.3s;
+        }
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 26px;
+      }
     }
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1030px) {
   .project {
     .container {
-      flex-direction: row;
-      justify-content: space-between;
-      text-align: left;
-
       .project-card {
-        width: 50%;
+        width: 45%;
+        float: left;
       }
     }
   }
