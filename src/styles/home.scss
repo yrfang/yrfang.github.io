@@ -6,20 +6,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Knewave', cursive;
 
   .title {
     width: 100%;
     font-size: 18px;
     text-align: center;
-    line-height: 40px;
+    font-family: 'Knewave', cursive;
 
-    .person {
-      width: 100%;
+    p  {
+      line-height: 60px;
+    }
+  }
 
-      img {
-        width: 30%;
-      }
+  .person {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+    img {
+      width: 50%;
     }
   }
 }
@@ -30,15 +35,15 @@
   cursor: pointer;
   font-size: 24px;
   margin-top: 30px;
+  margin-right: 20px;
   color: #ffffff;
   padding: 10px 15px;
   border-radius: 999px;
   background-color: $primary-color;
-  font-family: 'Knewave', cursive;
 
   &:hover {
-    color: #333333;
-    transition: 0.5s;
+    background-color: #cccccc;
+    transition: 0.3s;
   }
 }
 
@@ -47,20 +52,15 @@
     flex-direction: row;
     justify-content: space-between;
 
-    .title {
-      .person {
-        .name {
-          position: absolute;
-          top: 40%;
-          right: 50%;
-          font-size: 52px;
-        }
-  
-        img {
-          width: 30%;
-          padding-left: 150px;
-        }
-      }
+    .title, .person {
+      width: 50%;
+      margin-top: 0;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    .person img {
+      width: 70%;
     }
   }
 }

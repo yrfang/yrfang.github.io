@@ -6,18 +6,23 @@ const Home = () => {
   return (
     <div className="home">
       <div className="title">
-        <h1>Hello, I am</h1>
-        <div className="person">
-          <h1 className="name">Yingru Fang</h1>
-          <img
-            src={`${process.env.PUBLIC_URL}/yr-logo.png`}
-            alt="person"
-          />
-        </div>
-        <h1>Software developer</h1>
+        <h1>
+          <p>Hi, I am</p>
+          <p>Yingru Fang</p>
+          <p>Software developer</p>
+        </h1>
         <Link to="about">
           <button>More Info</button>
         </Link>
+        <a href="https://drive.google.com/file/d/1Xjpz9A_l00VUAIFRgsbHCxgGPwGrPl5J/view?usp=sharing" target="_blank" rel="noreferrer">
+          <button>Resume</button>
+        </a>
+      </div>
+      <div className="person">
+        <img
+          src={`${process.env.PUBLIC_URL}/image/yr-photo.png`}
+          alt="person"
+        />
       </div>
     </div>
   );
