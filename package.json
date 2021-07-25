@@ -1,7 +1,6 @@
 {
   "name": "yrfang.github.io",
-  "start_url": ".",
-  "homepage": "https://yrfang.github.io/yrfang.github.io/index.html",
+  "homepage": "https://yrfang.github.io/yrfang.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
