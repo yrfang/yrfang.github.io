@@ -14,7 +14,7 @@ const Footer = () => {
         </span>
       </a>
       <a
-        href="https://www.linkedin.com/in/yingrufang/" target="_blank"
+        href="https://www.linkedin.com/in/yingru-fang/" target="_blank"
         rel="noreferrer"
       >
         <span className="footer-icon">
