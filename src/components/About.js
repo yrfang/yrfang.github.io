@@ -16,6 +16,12 @@ const About = () => {
 
         <div className="container experience">
           <h1>Experience</h1>
+          <h3>Amazon</h3>
+          <p>Role: Software Development Engineer Intern</p>
+          <p>Specialization: Software Development</p>
+          <p>Date: Jun. 2022 – Sept. 2022</p>
+          <p>Location: San Diego, California</p>
+          <br />
           <h3>Vynca, Inc.</h3>
           <p>Role: Software Engineer</p>
           <p>Specialization: Front-end Development</p>
