@@ -14,7 +14,7 @@ const Home = () => {
         <Link to="about">
           <button>More Info</button>
         </Link>
-        <a href="https://drive.google.com/file/d/1VRe4N9CZKyevK4AWaCeUDd-lwPrvp9Nd/view?usp=sharing" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1AWF68RH7JRmFpmJHbpFEEiwLb1WcR5i5/view?usp=share_link" target="_blank" rel="noreferrer">
           <button>Resume</button>
         </a>
       </div>
