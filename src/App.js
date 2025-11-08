@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Home, About, Project, Contact, NavBar, Footer } from './components';
-import './styles/app.scss';
+import { Home, About, Project, NavBar, Footer } from './components';
+import './styles/App.scss';
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
           <Route exact path="/"><Home /></Route>
           <Route path="/about"><About /></Route>
           <Route path="/project"><Project /></Route>
-          <Route path="/contact"><Contact /></Route>
         </Switch>
         <Footer />
       </div>
