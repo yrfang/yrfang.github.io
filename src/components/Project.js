@@ -3,7 +3,7 @@ import "../styles/project.scss";
 const Project = () => {
   return (
     <div className="project">
-      <h1>Practice Projects</h1>
+      <h1>Side Projects</h1>
 
       <div className="container">
         <div className="project-card">

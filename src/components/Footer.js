@@ -21,15 +21,6 @@ const Footer = () => {
           <FaLinkedin />
         </span>
       </a>
-      <a
-        href="https://www.facebook.com/yingrufang/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <span className="footer-icon">
-          <FaFacebookSquare />
-        </span>
-      </a>
     </footer>
   );
 };

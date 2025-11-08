@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Home, About, Project, NavBar, Footer } from './components';
+import { Home, About, Project, Skills, NavBar, Footer } from './components';
 import './styles/App.scss';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route path="/about"><About /></Route>
+          <Route path="/skills"><Skills /></Route>
           <Route path="/project"><Project /></Route>
         </Switch>
         <Footer />
